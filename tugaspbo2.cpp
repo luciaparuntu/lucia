@@ -1,14 +1,12 @@
 #include <iostream>
 using namespace std;
-main (void)
 
+int main ()
 {
- int tahun, umur;
- char lagi;
- 
- mulai :
+ float tahun, umur;
   cout << "\nMasukan tahun kelahiranmu = ";
   cin >> tahun;
-  umur = 2021 - tahun;
+  umur = 2021-tahun;
   cout << "Umurrmu " << umur << " tahun\n";
 return 0;
+}
